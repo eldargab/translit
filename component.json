@@ -1,0 +1,14 @@
+{
+  "name": "translit",
+  "version": "0.0.1",
+  "repo": "eldargab/translit",
+  "description": "Text transliteration util",
+  "keywords": [
+    "transliterate",
+    "translit"
+  ],
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
