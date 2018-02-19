@@ -40,6 +40,16 @@ var translit = require('translit')({
 translit('Izh') //=> Иж
 ```
 
+You can also provide fallback function for replacing unknown characters
+
+```javascript
+var translit = require('translit')({}, {
+  fallback: char => char.toUpperCase()
+})
+
+translit('hello') //=> HELLO
+```
+
 ## Related
 
   * [translit-russian](https://github.com/eldargab/translit-russian) - Russian transliteration map
